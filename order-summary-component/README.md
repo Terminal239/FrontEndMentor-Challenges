@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/TerminalEagle/Order-Summary-Component)
-- Live Site URL: [Live Site](https://terminaleagle.github.io/Order-Summary-Component/)
+- Solution URL: [Solution](https://github.com/TerminalEagle/FrontEndMentor-Challenges/tree/master/order-summary-component)
+- Live Site URL: [Live Site](https://64eb5256e5e53c61ffcb6d91--gleeful-youtiao-5460ec.netlify.app/)
 
 ## My process
 

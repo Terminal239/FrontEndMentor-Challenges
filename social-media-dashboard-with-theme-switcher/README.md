@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://github.com/TerminalEagle/social-media-dashboard-with-theme-switcher)
-- [Live Site URL](https://64e732e36084ad6f65816e2f--melodious-gelato-2e876d.netlify.app/)
+- [Solution](https://github.com/TerminalEagle/FrontEndMentor-Challenges/tree/master/social-media-dashboard-with-theme-switcher)
+- [Live Site URL](https://64eb55d34e0fc5662843b44f--reliable-monstera-5b09ba.netlify.app/)
 
 ## My process
 

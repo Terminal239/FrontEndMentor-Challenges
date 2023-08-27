@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://64e7411a04c0f3778194ce49--dazzling-capybara-174eb0.netlify.app/)
-- [Live Site URL](https://64e732e36084ad6f65816e2f--melodious-gelato-2e876d.netlify.app/)
+- [Solution](https://github.com/TerminalEagle/FrontEndMentor-Challenges/tree/master/easybank-landing-page)
+- [Live Site URL](https://64e7411a04c0f3778194ce49--dazzling-capybara-174eb0.netlify.app/)
 
 ## My process
 

@@ -4,14 +4,14 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ## Table of contents
 
--   [Overview](#overview)
-    -   [The challenge](#the-challenge)
-    -   [Screenshot](#screenshot)
-    -   [Links](#links)
--   [My process](#my-process)
-    -   [Built with](#built-with)
-    -   [What I learned](#what-i-learned)
--   [Author](#author)
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
 
 ## Overview
 
@@ -19,8 +19,8 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 Users should be able to:
 
--   View the optimal layout depending on their device's screen size
--   See hover states for interactive elements
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
 
 ### Screenshot
 
@@ -29,17 +29,17 @@ Users should be able to:
 
 ### Links
 
--   [Solution URL](https://github.com/TerminalEagle/3-column-preview-card-component-main)
--   [Live Site URL](https://whimsical-madeleine-57ade2.netlify.app/)
+- [Solution URL](https://github.com/TerminalEagle/FrontEndMentor-Challenges/tree/master/3-column-preview-card-component-main)
+- [Live Site URL](https://whimsical-madeleine-57ade2.netlify.app/)
 
 ## My process
 
 ### Built with
 
--   Semantic HTML5 markup
--   CSS custom properties
--   Flexbox
--   Mobile-first workflow
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
 
 ### What I learned
 
@@ -50,4 +50,4 @@ The paragraph grows to eat the available space even when the content is short fo
 
 ## Author
 
--   Frontend Mentor - [@TerminalEagle](https://www.frontendmentor.io/profile/TerminalEagle)
+- Frontend Mentor - [@TerminalEagle](https://www.frontendmentor.io/profile/TerminalEagle)

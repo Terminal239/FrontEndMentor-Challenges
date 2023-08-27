@@ -4,14 +4,14 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
 
 ## Table of contents
 
--   [Overview](#overview)
-    -   [The challenge](#the-challenge)
-    -   [Screenshot](#screenshot)
-    -   [Links](#links)
--   [My process](#my-process)
-    -   [Built with](#built-with)
-    -   [What I learned](#what-i-learned)
--   [Author](#author)
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -21,9 +21,9 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
 
 Users should be able to:
 
--   View the relevant dropdown menus on desktop and mobile when interacting with the navigation links
--   View the optimal layout for the content depending on their device's screen size
--   See hover states for all interactive elements on the page
+- View the relevant dropdown menus on desktop and mobile when interacting with the navigation links
+- View the optimal layout for the content depending on their device's screen size
+- See hover states for all interactive elements on the page
 
 ### Screenshot
 
@@ -32,18 +32,18 @@ Users should be able to:
 
 ### Links
 
--   [Solution URL](https://github.com/TerminalEagle/intro-section-with-dropdown-navigation-main)
--   [Live Site URL](https://intro-with-dropdown-list.netlify.app/)
+- [Solution URL](https://github.com/TerminalEagle/FrontEndMentor-Challenges/tree/master/intro-section-with-dropdown-navigation-main)
+- [Live Site URL](https://intro-with-dropdown-list.netlify.app/)
 
 ## My process
 
 ### Built with
 
--   Semantic HTML5 markup
--   CSS/SASS
--   Flexbox
--   CSS Grid
--   Desktop-first workflow
+- Semantic HTML5 markup
+- CSS/SASS
+- Flexbox
+- CSS Grid
+- Desktop-first workflow
 
 ### What I learned
 
@@ -51,4 +51,4 @@ I implemented a lot of concepts that I obtained about SASS such as using mixins 
 
 ## Author
 
--   Frontend Mentor - [@TerminalEagle](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@TerminalEagle](https://www.frontendmentor.io/profile/yourusername)

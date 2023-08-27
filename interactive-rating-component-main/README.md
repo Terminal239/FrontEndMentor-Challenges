@@ -41,8 +41,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/TerminalEagle/Interactive-Rating-Component)
-- Live Site URL: [Live Site](https://terminaleagle.github.io/Interactive-Rating-Component/)
+- [Solution URL](https://github.com/TerminalEagle/FrontEndMentor-Challenges/tree/master/interactive-rating-component-main)
+- [Live Site URL](https://64eb497b8c801463db2c04a8--luminous-arithmetic-23e2cd.netlify.app/)
 
 ## My process
 

@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/TerminalEagle/NFT-Preview-Card)
-- Live Site URL: [Live Site](https://terminaleagle.github.io/NFT-Preview-Card/)
+- Solution URL: [Solution](https://github.com/TerminalEagle/FrontEndMentor-Challenges/tree/master/nft-preview-card-component-main)
+- Live Site URL: [Live Site](https://64eb51faf3c77064912dc8bc--boisterous-pudding-c0e969.netlify.app/)
 
 ## My process
 

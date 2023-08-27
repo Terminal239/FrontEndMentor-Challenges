@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/TerminalEagle/Product-Preview-Card.git]
-- Live Site URL: [https://terminaleagle.github.io/Product-Preview-Card/]
+- [Solution URL](https://github.com/TerminalEagle/FrontEndMentor-Challenges/tree/master/Product-Preview-Card-main)
+- [Live Site URL](https://64eb52a6fb981f6824acea8f--kaleidoscopic-pithivier-457b87.netlify.app/)
 
 ## My process
 
@@ -48,8 +48,3 @@ Although I had taken a course on HTML and CSS, I didn't have a lot of practical 
 ## Author
 
 - Frontend Mentor - [@TerminalEagle](https://www.frontendmentor.io/profile/TerminalEagle)
-
-## Acknowledgments
-
-The work done by [@Kuzitaa](https://www.frontendmentor.io/profile/Kuzitaa) on the challenge Results summary component
-[https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV] helped me a lot in working on this solution, especially his structuring of the page.

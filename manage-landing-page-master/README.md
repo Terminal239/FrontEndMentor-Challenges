@@ -31,11 +31,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](screenshots/desktop.png)
+![](./screenshots/desktop.png)
 
 ### Links
 
-- [Solution URL](https://github.com/TerminalEagle/manage-landing-page-master)
+- [Solution URL](https://github.com/TerminalEagle/FrontEndMentor-Challenges/tree/master/manage-landing-page-master)
 - [Live Site URL](https://64e9d2ad067a02297126a61a--starlit-swan-624fc0.netlify.app/)
 
 ## My process
