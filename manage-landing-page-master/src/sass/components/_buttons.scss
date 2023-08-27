@@ -1,0 +1,26 @@
+.button {
+  border: none;
+
+  border-radius: 500px;
+  padding: 12px 32px;
+
+  background-color: var(--primary-bright-red);
+  box-shadow: 0 8px 24px -8px var(--primary-bright-red);
+
+  &--inverted {
+    background-color: var(--neutral-very-light-gray);
+    box-shadow: none;
+  }
+
+  &--navigation {
+    background: none;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
+    z-index: 1;
+  }
+
+  &:hover {
+    opacity: 0.7;
+  }
+}

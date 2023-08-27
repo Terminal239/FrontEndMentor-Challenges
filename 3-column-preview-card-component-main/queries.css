@@ -1,0 +1,27 @@
+@media (min-width: 50em) {
+    main {
+        height: 100%;
+    }
+
+    .section-features {
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-features__feature-card {
+        padding: 48px;
+        max-width: 305px;
+    }
+
+    .section-features__feature-description {
+        flex: 1 1 0;
+    }
+
+    .section-features__feature-heading {
+        font-size: calc(40 / 16 * 1rem);
+    }
+
+    .btn__learn-more {
+        margin-top: 64px;
+    }
+}

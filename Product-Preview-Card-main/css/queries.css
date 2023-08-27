@@ -1,0 +1,23 @@
+@media (max-width: 40em) {
+  main {
+    min-width: 21.4375rem;
+  }
+
+  .product-card {
+    flex-direction: column;
+    margin: 1rem;
+  }
+
+  .card-image {
+    background-image: url("../images/image-product-mobile.jpg");
+
+    min-height: 15rem;
+    min-width: 21.4375rem;
+  }
+
+  .card-text {
+    max-width: 21.4375rem;
+
+    padding: 1.5rem;
+  }
+}

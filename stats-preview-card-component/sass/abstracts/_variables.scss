@@ -1,0 +1,45 @@
+$font-size: (
+  "300": 13px,
+  "400": 15px,
+  "500": 18px,
+  "600": 24px,
+  "700": 30px,
+  "800": 42px,
+);
+
+$font-weights: (
+  "regular": 400,
+  "bold": 700,
+);
+
+$colors-primary: (
+  "primary-blue-900": hsl(233, 47%, 7%),
+  "primary-blue-700": hsl(244, 38%, 16%),
+  "primary-violet-400": hsl(277, 64%, 61%),
+);
+
+$colors-neutral: (
+  "neutral-white": hsl(0, 0%, 100%),
+  "neutral-transparent-400": hsla(0, 0%, 100%, 0.75),
+  "neutral-transparent-200": hsla(0, 0%, 100%, 0.6),
+);
+
+:root {
+  --font-size-300: #{map-get($font-size, "300")};
+  --font-size-400: #{map-get($font-size, "400")};
+  --font-size-500: #{map-get($font-size, "500")};
+  --font-size-600: #{map-get($font-size, "600")};
+  --font-size-700: #{map-get($font-size, "700")};
+  --font-size-800: #{map-get($font-size, "800")};
+
+  --font-weight-regular: #{map-get($font-weights, "regular")};
+  --font-weight-bold: #{map-get($font-weights, "bold")};
+
+  --color-primary-blue-900: #{map-get($colors-primary, "primary-blue-900")};
+  --color-primary-blue-700: #{map-get($colors-primary, "primary-blue-700")};
+  --color-primary-violet-400: #{map-get($colors-primary, "primary-violet-400")};
+
+  --color-neutral-white: #{map-get($colors-neutral, "neutral-white")};
+  --color-neutral-transparent-400: #{map-get($colors-neutral, "neutral-transparent-400")};
+  --color-neutral-transparent-200: #{map-get($colors-neutral, "neutral-transparent-200")};
+}

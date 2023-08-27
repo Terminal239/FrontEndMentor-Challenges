@@ -1,0 +1,23 @@
+.hero__image {
+    background: url("../../assets/bg-intro-mobile.svg") no-repeat;
+    background-size: cover;
+}
+
+.hero__image img {
+    width: 75%;
+    margin-inline: auto;
+}
+
+@media (min-width: 48rem) {
+    .hero__image {
+        background: url("../../assets/bg-intro-desktop.svg") no-repeat;
+        background-position: bottom left;
+        padding-left: 48px;
+        order: 2;
+    }
+
+    .hero__image img {
+        width: 100%;
+        margin-inline: auto;
+    }
+}

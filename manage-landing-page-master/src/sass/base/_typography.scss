@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,700;1,500&display=swap");
+
+$font-sizes: (
+  300: 0.75rem,
+  350: 0.875rem,
+  400: 1rem,
+  500: 1.125rem,
+  600: 2.5rem,
+  650: 3rem,
+  700: 3.5rem,
+);
+
+$font-weights: (
+  normal: 400,
+  bold: 500,
+  bolder: 700,
+);
+
+@mixin font-size($size) {
+  font-size: map-get($font-sizes, $size);
+}
+
+@mixin font-weight($weight) {
+  font-weight: map-get($font-weights, $weight);
+}
+
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--primary-dark-blue);
+}
+
+.navigation__link {
+  @include font-size(300);
+  @include font-weight(bolder);
+}
+
+.navigation__link:is(:link, :visited) {
+  text-decoration: none;
+  color: var(--primary-dark-blue);
+}
+
+.navigation__link:is(:hover, :active) {
+  color: var(--neutral-dark-grayish-blue);
+}
+
+.footer__navigation-link {
+  @include font-size(350);
+}
+
+.button {
+  @include font-size(300);
+  @include font-weight(bolder);
+  color: var(--neutral-very-light-gray);
+
+  &--inverted {
+    color: var(--primary-bright-red);
+  }
+}
+
+.hero {
+  h1 {
+    @include font-size(700);
+    letter-spacing: -2px;
+    line-height: 1.12;
+  }
+
+  p {
+    @include font-size(400);
+  }
+}
+
+@media (max-width: 1100px) {
+  .hero {
+    h1 {
+      @include font-size(650);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    h1 {
+      @include font-size(600);
+    }
+  }
+}
+
+.features {
+  p {
+    color: var(--neutral-dark-grayish-blue);
+  }
+
+  &__text {
+    h2 {
+      @include font-size(600);
+      letter-spacing: -1px;
+      line-height: 1.12;
+    }
+  }
+
+  &__item {
+    h3 {
+      @include font-size(400);
+      letter-spacing: -1px;
+    }
+  }
+
+  &__marker {
+    color: var(--neutral-very-light-gray);
+    @include font-weight(bolder);
+  }
+}
+
+.testimonials {
+  h2 {
+    @include font-size(600);
+    letter-spacing: -1.5px;
+  }
+
+  &__author {
+    @include font-weight(bolder);
+    line-height: 1;
+    color: var(--primary-dark-blue);
+  }
+
+  &__quote {
+    color: var(--neutral-dark-grayish-blue);
+  }
+}
+
+.call-to-action {
+  &__text {
+    @include font-size(600);
+    @include font-weight(bolder);
+    line-height: 1.2;
+    letter-spacing: -1px;
+    color: var(--neutral-very-pale-red);
+  }
+}
+
+.footer {
+  color: var(--neutral-very-light-gray);
+
+  .logo-text {
+    fill: var(--neutral-very-light-gray);
+  }
+
+  &__navigation-link {
+    text-decoration: none;
+    color: var(--neutral-very-light-gray);
+
+    &:hover {
+      color: var(--primary-bright-red);
+    }
+  }
+}
+
+.form {
+  &__input {
+    @include font-size(300);
+  }
+
+  &__input-error {
+    outline: 2px solid var(--primary-bright-red);
+    color: var(--primary-bright-red);
+    outline-offset: -1px;
+  }
+}
+
+.error-message {
+  @include font-size(300);
+  color: var(--primary-bright-red);
+}
+
+.copyright-text {
+  @include font-size(300);
+  opacity: 0.5;
+}

@@ -1,0 +1,104 @@
+.flex {
+    display: flex;
+    gap: var(--gap, 16px);
+}
+
+/* Text Colors */
+.text-primary-dark {
+    color: hsl(233, 26%, 24%);
+}
+
+.text-primary-green {
+    color: hsl(136, 65%, 51%);
+}
+
+.text-primary-bright {
+    color: hsl(192, 70%, 51%);
+}
+
+.text-neutral-blue {
+    color: hsl(233, 8%, 62%);
+}
+
+.text-neutral-light-gray {
+    color: hsl(220, 16%, 96%);
+}
+
+.text-neutral-ver-light {
+    color: hsl(0, 0%, 98%);
+}
+
+.text-white {
+    color: hsl(0, 0%, 100%);
+}
+
+/* Background Colors */
+.bg-primary-dark {
+    background-color: hsl(233, 26%, 24%);
+}
+
+.bg-primary-green {
+    background-color: hsl(136, 65%, 51%);
+}
+
+.bg-primary-bright {
+    background-color: hsl(192, 70%, 51%);
+}
+
+.bg-neutral-blue {
+    background-color: hsl(233, 8%, 62%);
+}
+
+.bg-neutral-light-gray {
+    background-color: hsl(220, 16%, 96%);
+}
+
+.bg-neutral-ver-light {
+    background-color: hsl(0, 0%, 98%);
+}
+
+.bg-white {
+    background-color: hsl(0, 0%, 100%);
+}
+
+/* Font Sizes */
+.fs-700 {
+    font-size: 2.5rem;
+}
+
+.fs-600 {
+    font-size: 2rem;
+}
+
+.fs-500 {
+    font-size: 1.5rem;
+}
+
+.fs-400 {
+    font-size: 1.125rem;
+}
+
+.fs-300 {
+    font-size: 1rem;
+}
+
+.fs-200 {
+    font-size: 0.875rem;
+}
+
+/* Font Family */
+.ff-sans {
+    font-family: "Public Sans", sans-serif;
+}
+
+.overlay {
+    background: linear-gradient(to bottom, hsl(233 26% 24% / 90%), hsl(0 0% 100% / 0%));
+    position: fixed;
+    top: 64px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    isolation: isolate;
+    z-index: 1;
+}

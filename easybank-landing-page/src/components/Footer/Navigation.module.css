@@ -1,0 +1,26 @@
+.navigation ul {
+  text-align: center;
+}
+
+.navigation ul li:not(:last-of-type) {
+  margin-bottom: 8px;
+}
+
+.navigation a:where(:link, :visited) {
+  color: var(--clr-neutral-very-light);
+}
+
+.navigation a:where(:hover, :active) {
+  color: var(--clr-primary-green);
+}
+
+@media (min-width: 48rem) {
+  .navigation {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+  }
+
+  .navigation ul {
+    text-align: initial;
+  }
+}

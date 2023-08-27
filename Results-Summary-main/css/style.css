@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  display: grid;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-direction--column {
+  flex-direction: column;
+}
+
+.align-items--center {
+  align-items: center;
+}
+
+.justify-content--center {
+  justify-content: center;
+}
+
+.justify-content--space-between {
+  justify-content: space-between;
+}
+
+.component-container {
+  display: grid;
+  justify-content: center;
+
+  margin: 0 auto;
+  grid-template-columns: 20rem 20rem;
+  margin-bottom: 5rem;
+  border-radius: 24px;
+
+  box-shadow: 10px 10px 24px 0 rgba(0, 0, 0, 0.1);
+}
+
+/*////////////////////////////////////// 
+///////////  RESULT PART    ////////////
+//////////////////////////////////////*/
+
+.container-result {
+  text-align: center;
+  gap: 2rem;
+
+  padding: 3rem 1.5rem;
+  background-color: hsl(241, 81%, 54%);
+  border-radius: 24px;
+  justify-self: end;
+  width: 100%;
+}
+
+.header-result {
+  gap: 2rem;
+}
+
+.result-heading {
+  color: hsl(241, 100%, 89%);
+  font-size: 1.2rem;
+}
+
+.result-value {
+  height: 10rem;
+  width: 10rem;
+  padding: 3rem;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+}
+
+.obtained-value {
+  display: block;
+  font-size: 4rem;
+  color: hsl(0, 0%, 100%);
+  font-weight: 800;
+}
+
+.actual-value {
+  color: hsl(241, 100%, 89%);
+}
+
+.result-adjective {
+  display: block;
+  font-size: 2rem;
+  font-weight: 500;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 0.8rem;
+}
+
+.result-comment {
+  font-size: 1.125rem;
+  color: hsl(241, 100%, 89%);
+  padding: 0 1rem;
+}
+
+/*/ /////////////////////////////////////
+//////////  SUMMARY PART    ////////////
+//////////////////////////////////////*/
+
+.container-summary {
+  gap: 1.3rem;
+  padding: 2rem;
+}
+
+.main-summary {
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.summary-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  background-color: aliceblue;
+  padding: 0.8rem 1rem;
+  border-radius: 11px;
+  font-weight: 800;
+}
+
+.summary-icon {
+  margin-right: 0.7rem;
+}
+
+.summary-heading {
+  color: hsl(224, 30%, 27%);
+  font-size: 1.2rem;
+}
+
+.item--reaction {
+  color: hsl(0, 100%, 67%);
+  background-color: hsla(0, 100%, 67%, 0.07);
+}
+
+.item--memory {
+  color: hsl(39, 100%, 56%);
+  background-color: hsla(39, 100%, 56%, 0.07);
+}
+
+.item--verbal {
+  color: hsl(166, 100%, 37%);
+  background-color: hsla(166, 100%, 37%, 0.07);
+}
+
+.item--visual {
+  color: hsl(234, 85%, 45%);
+  background-color: hsla(234, 85%, 45%, 0.07);
+}
+
+.item-title {
+  font-size: 1rem;
+  align-self: flex-start;
+}
+
+.item-value {
+  margin-left: auto;
+  color: hsla(224, 30%, 27%, 0.5);
+}
+
+.obtained {
+  color: hsl(224, 30%, 27%);
+}
+
+.btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn--continue {
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  background-color: hsl(224, 30%, 27%);
+  color: hsl(221, 100%, 96%);
+}
+
+.btn--continue:hover {
+  background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsl(241, 81%, 54%));
+}
+
+/*/ /////////////////////////////////////
+//////////  SUMMARY PART    ////////////
+//////////////////////////////////////*/
+
+@media (max-width: 23.4375em) {
+  .component-container {
+    grid-template-columns: 1fr;
+    min-height: 100vh;
+  }
+
+  .container-result {
+    border-radius: 0 0 24px 24px;
+    padding: 1.5rem 0;
+  }
+}

@@ -1,0 +1,30 @@
+.statistics {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  &__item {
+    text-transform: uppercase;
+  }
+
+  .highlight {
+    display: block;
+    text-transform: initial;
+
+    font-size: var(--font-size-600);
+    color: var(--color-neutral-white);
+  }
+}
+
+@media (min-width: 45rem) {
+  .statistics {
+    flex-direction: revert;
+    justify-content: space-between;
+    margin-top: auto;
+    padding-right: 132px;
+
+    .highlight {
+      font-size: var(--font-size-700);
+    }
+  }
+}

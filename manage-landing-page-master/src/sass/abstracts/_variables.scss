@@ -1,0 +1,19 @@
+// Primary Colors
+$primary-bright-red: hsl(12, 88%, 59%);
+$primary-dark-blue: hsl(228, 39%, 23%);
+
+// Neutral Colors
+$neutral-dark-grayish-blue: hsl(227, 12%, 61%);
+$neutral-very-dark-blue: hsl(233, 12%, 13%);
+$neutral-very-pale-red: hsl(13, 100%, 96%);
+$neutral-very-light-gray: hsl(0, 0%, 98%);
+
+:root {
+  --primary-bright-red: #{$primary-bright-red};
+  --primary-dark-blue: #{$primary-dark-blue};
+
+  --neutral-dark-grayish-blue: #{$neutral-dark-grayish-blue};
+  --neutral-very-dark-blue: #{$neutral-very-dark-blue};
+  --neutral-very-pale-red: #{$neutral-very-pale-red};
+  --neutral-very-light-gray: #{$neutral-very-light-gray};
+}

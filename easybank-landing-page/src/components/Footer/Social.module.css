@@ -1,0 +1,21 @@
+.social {
+  display: flex;
+  list-style-type: none;
+  gap: 16px;
+}
+
+.social path:hover {
+  fill: var(--clr-primary-green);
+}
+
+@media (min-width: 48rem) {
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-inline: auto;
+  }
+
+  .footer > div:last-of-type > * {
+    margin-left: auto;
+  }
+}

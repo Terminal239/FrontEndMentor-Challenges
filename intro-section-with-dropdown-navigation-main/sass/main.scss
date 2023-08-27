@@ -1,0 +1,101 @@
+@import "./reset";
+@import "./variables";
+@import "./utils";
+@import "./header";
+@import "./_hero";
+
+body {
+    font-family: "Epilogue", sans-serif;
+    color: map-get($colors, "neutral-400");
+    font-weight: map-get($font-weights, "normal");
+    background-color: map-get($colors, "neutral-100");
+    overflow-x: hidden;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.heading {
+    color: map-get($colors, "neutral-700");
+
+    &--primary {
+        font-size: pixel-to-rem(80);
+        font-weight: map-get($font-weights, "bold");
+
+        @include breakpoint-1 {
+            font-size: pixel-to-rem(64);
+        }
+
+        @include breakpoint-3 {
+            font-size: pixel-to-rem(36);
+        }
+    }
+}
+
+.btn {
+    display: inline-block;
+    border-radius: 12px;
+    line-height: 1;
+
+    &--menu {
+        background: none;
+        border: none;
+        right: 32px;
+
+        &:focus {
+            outline: 2px solid currentColor;
+            outline-offset: 8px;
+            border-radius: 2px;
+        }
+
+        &.fixed {
+            position: fixed;
+        }
+    }
+
+    &--login {
+        width: 100%;
+        text-align: center;
+    }
+
+    &--outline {
+        color: map-get($colors, "neutral-400");
+        border: 2px solid currentColor;
+    }
+
+    &--filled {
+        background-color: map-get($colors, "neutral-700");
+        color: map-get($colors, "neutral-100");
+
+        &:is(:hover, :focus) {
+            color: map-get($colors, "neutral-700");
+            background-color: #ffffff;
+            outline: 2px solid currentColor;
+        }
+    }
+
+    &--normal {
+        padding: 10px 20px;
+        padding-top: 12px;
+    }
+
+    &--large {
+        font-size: pixel-to-rem(18);
+        padding: 16px 32px;
+        padding-top: 20px;
+    }
+}
+
+.icon {
+    &--arrow-down,
+    &--arrow-up {
+        height: 8px;
+        margin-left: 16px;
+    }
+}

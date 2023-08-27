@@ -1,0 +1,122 @@
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray: hsl(0, 0%, 95%);
+
+    --font-accent: "Big Shoulders Display", cursive;
+    --font-primary: "Lexend Deca", sans-serif;
+
+    --ft-weight-normal: 400;
+    --ft-weight-bold: 700;
+
+    --ft-size: calc(15 / 16 * 1rem);
+}
+
+/*////////////////////////////////////////////
+/////////     GENERAL STYLES       /////////
+///////////////////////////////////////////*/
+
+body {
+    font-family: var(--font-primary);
+    font-size: var(--ft-size);
+    font-weight: var(--ft-weight-normal);
+
+    background-color: var(--very-light-gray);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 16px 32px;
+
+    background-color: var(--very-light-gray);
+    border-radius: 500px;
+
+    max-width: fit-content;
+}
+
+/*/ ///////////////////////////////////////////
+/////////     SPECIFIC STYLES       /////////
+///////////////////////////////////////////*/
+
+.section-features {
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.card--sedan {
+    --btn-font: var(--bright-orange);
+    --background: var(--bright-orange);
+}
+
+.card--suv {
+    --btn-font: var(--dark-cyan);
+    --background: var(--dark-cyan);
+}
+
+.card--luxury {
+    --btn-font: var(--very-dark-cyan);
+    --background: var(--very-dark-cyan);
+}
+
+.section-features__feature-card {
+    background-color: var(--background);
+    padding: 54px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.section-features__feature-heading {
+    color: var(--very-light-gray);
+
+    font-family: var(--font-accent);
+    font-weight: var(--ft-weight-bold);
+    text-transform: uppercase;
+    font-size: calc(32 / 16 * 1rem);
+
+    margin-top: 32px;
+}
+
+.section-features__feature-description {
+    color: var(--transparent-white);
+    line-height: 1.7;
+
+    margin-top: 32px;
+}
+
+.btn__learn-more {
+    margin-top: 24px;
+}
+
+.btn__learn-more:is(:link, :visited) {
+    color: var(--btn-font);
+}
+
+.btn__learn-more:is(:hover, :active) {
+    color: var(--very-light-gray);
+    background-color: var(--background);
+    outline: 2px solid var(--very-light-gray);
+}
+
+.max-width-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+
+    max-width: 1000px;
+
+    padding-right: 16px;
+    padding-left: 16px;
+}

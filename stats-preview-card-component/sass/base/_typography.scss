@@ -1,0 +1,39 @@
+body {
+  font-family: "Inter", sans-serif;
+  color: var(--color-neutral-transparent-200);
+  background-color: var(--color-primary-blue-900);
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: var(--font-size-700);
+  font-weight: var(--font-weight-bold);
+}
+
+p {
+  font-size: var(--font-size-400);
+}
+
+.statistics__item {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: var(--font-size-300);
+}
+
+.highlight {
+  font-weight: var(--font-weight-bold);
+  font-family: "Inter", sans-serif;
+}
+
+@media (min-width: 45rem) {
+  h1 {
+    font-size: var(--font-size-800);
+  }
+
+  p {
+    font-size: var(--font-size-500);
+  }
+
+  .statistics__item {
+    font-size: var(--font-size-400);
+  }
+}

@@ -1,0 +1,127 @@
+:root {
+  /* Primary Colors */
+  --dark-cyan: hsl(158, 36%, 37%); /* Color for the button and price */
+  --cream: hsl(30, 38%, 92%); /* Background color for the entire page */
+
+  --very-dark-blue: hsl(212, 21%, 14%); /* Color for the product name/title */
+  --dark-grayish-blue: hsl(228, 12%, 48%); /* Color disc price, sub-head, prod desc */
+  --white: hsl(0, 0%, 100%); /* Bg color for the prod info section */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  font-family: "Montserrat", sans-serif;
+
+  line-height: 1;
+
+  min-height: 100vh;
+  background-color: var(--cream);
+}
+
+main {
+  min-width: 37.5rem;
+  margin: 0 auto;
+}
+
+.product-card {
+  display: flex;
+
+  border-radius: 11px;
+  overflow: hidden;
+}
+
+.card-image {
+  background-image: url("../images/image-product-desktop.jpg");
+  background-size: cover;
+  min-height: 28.125rem;
+  min-width: 18.75rem;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+
+  background-color: var(--white);
+  color: var(--dark-grayish-blue);
+
+  max-width: 18.75rem;
+  padding: 2rem;
+}
+
+.sub-heading {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 0.775rem;
+
+  margin-bottom: 1rem;
+}
+
+.product-name {
+  font-size: 2.1rem;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+
+  color: var(--very-dark-blue);
+
+  margin-bottom: 1.5rem;
+}
+
+.product-description {
+  font-size: 0.875rem;
+  line-height: 1.6;
+
+  margin-bottom: 1.5rem;
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  margin-bottom: 1.5rem;
+}
+
+.price-discount {
+  font-size: 2rem;
+  letter-spacing: -0.5px;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+
+  color: var(--dark-cyan);
+}
+
+.price-original {
+  font-size: 0.8125rem;
+  text-decoration: line-through;
+}
+
+.btn {
+  background: none;
+  border: none;
+}
+
+.btn--add-to-card {
+  display: flex;
+  place-content: center;
+  gap: 10px;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+
+  background-color: var(--dark-cyan);
+  color: var(--white);
+  border-radius: 11px;
+
+  padding: 0.875rem 0;
+}
