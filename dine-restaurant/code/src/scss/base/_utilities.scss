@@ -1,0 +1,22 @@
+.max-width-wrapper {
+  max-width: 1110px;
+  margin-inline: auto;
+  padding-inline: 32px;
+}
+
+.pattern {
+  position: absolute;
+
+  &-curve {
+    bottom: 0;
+  }
+
+  &-lines {
+    top: 25%;
+    right: -7rem;
+  }
+
+  &-divide {
+    top: -3rem;
+  }
+}

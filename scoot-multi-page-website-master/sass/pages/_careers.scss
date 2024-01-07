@@ -1,0 +1,57 @@
+.hero-background.careers {
+  background-image: url(/images/careers-locations-hero-desktop.jpg);
+
+  @media screen and (max-width: 950px) {
+    background-image: url(/images/careers-locations-hero-tablet.jpg);
+  }
+
+  @media screen and (max-width: 740px) {
+    background-image: url(/images/careers-location-hero-mobile.jpg);
+  }
+}
+
+.section-careers {
+  .card {
+    margin-bottom: 120px;
+  }
+}
+
+.job-container {
+  width: 100%;
+  margin-bottom: 10rem;
+}
+
+.job-element {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 2.5rem;
+  background-color: var(--light-gray);
+
+  &:not(:last-of-type) {
+    margin-bottom: 1.5rem;
+  }
+
+  @media screen and (max-width: 740px) {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+
+    padding: 2rem;
+
+    button {
+      width: 100%;
+      max-width: 400px;
+      margin-inline: auto;
+    }
+  }
+}
+
+.job__info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  p {
+    color: var(--dark-navy);
+  }
+}

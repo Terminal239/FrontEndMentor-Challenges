@@ -1,0 +1,73 @@
+.values {
+  isolation: isolate;
+  margin-bottom: 120px;
+  h2 {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  @media screen and (max-width: 980px) {
+    margin-bottom: 60px;
+  }
+}
+
+.value-card-container {
+  display: flex;
+  gap: 0.75rem;
+
+  @media screen and (max-width: 980px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+  }
+}
+
+.value-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+
+  span {
+    width: 96px;
+    height: 96px;
+    background-color: var(--yellow);
+    color: var(--dark-navy);
+    font-weight: 700;
+    border-radius: 50%;
+
+    font-size: var(--font-size-600);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 12rem;
+  }
+
+  img {
+    border-radius: 50%;
+    margin-bottom: 5.5rem;
+
+    @media screen and (max-width: 980px) {
+      margin-bottom: 4.5rem;
+    }
+  }
+
+  h4 {
+    margin-bottom: 1.75rem;
+
+    @media screen and (max-width: 980px) {
+      margin-bottom: 1.25rem;
+    }
+  }
+
+  @media screen and (max-width: 980px) {
+    width: 460px;
+  }
+
+  @media screen and (max-width: 520px) {
+    width: 100%;
+  }
+}

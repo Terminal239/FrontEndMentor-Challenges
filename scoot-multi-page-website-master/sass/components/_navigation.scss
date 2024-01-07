@@ -1,0 +1,87 @@
+header {
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+
+    ul {
+      display: flex;
+      gap: 2rem;
+      color: var(--dim-gray);
+      font-weight: 700;
+
+      @media screen and (max-width: 740px) {
+        flex-direction: column;
+      }
+    }
+
+    @media screen and (max-width: 740px) {
+      position: fixed;
+      top: 64px;
+      bottom: 0;
+      left: 0;
+      width: 256px;
+
+      color: var(--snow);
+      background-color: var(--dark-navy);
+
+      padding-top: 64px;
+      padding-inline-start: 32px;
+      font-size: var(--font-size-450);
+      font-weight: 700;
+
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+
+      button.button-primary {
+        margin-left: 0;
+        margin-bottom: 24px;
+        margin-top: auto;
+        align-self: start;
+      }
+
+      transform: translate3d(-100%, 0, 0);
+      transition: transform 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+  }
+
+  @media screen and (max-width: 740px) {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+  }
+}
+
+button.nav-toggle {
+  padding-left: 32px;
+  width: fit-content;
+}
+
+header.visible nav {
+  transform: translate3d(0%, 0, 0);
+}
+
+header .overlay {
+  background-color: black;
+  position: fixed;
+  left: 256px;
+  top: 64px;
+  bottom: 0;
+  right: 0;
+  opacity: 0.85;
+  touch-action: none;
+  pointer-events: none;
+
+  transform: translate3d(100%, 0, 0);
+  transition: transform 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+header.visible .overlay {
+  transform: translate3d(0, 0, 0);
+}
+
+a:is(:hover, :active) {
+  color: var(--yellow);
+}

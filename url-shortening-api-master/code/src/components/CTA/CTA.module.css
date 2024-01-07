@@ -1,0 +1,36 @@
+.section-cta {
+  background: url("../../assets/bg-boost-desktop.svg");
+  background-color: var(--primary-dark-violet);
+  padding-block: var(--spacing-md);
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.container {
+  width: fit-content;
+  margin-inline: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-xxxs);
+}
+
+.container p {
+  font-size: var(--font-h2);
+  font-weight: 700;
+  color: var(--white);
+}
+
+@media screen and (max-width: 767px) {
+  .section-cta {
+    background: url("../../assets/bg-boost-mobile.svg");
+    background-color: var(--primary-dark-violet);
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+}

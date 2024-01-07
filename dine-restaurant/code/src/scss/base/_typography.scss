@@ -1,0 +1,39 @@
+body {
+  font-size: var(--font-body);
+  color: hsl(var(--neutral-text));
+  line-height: 1.7;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  font-size: var(--font-primary-heading);
+}
+
+h2 {
+  font-size: var(--font-secondary-heading);
+  font-weight: 700;
+}
+
+h3 {
+  font-size: var(--font-size-400);
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400;
+}
+
+@media screen and (max-width: 980px) {
+  :root {
+    --font-primary-heading: var(--font-size-650);
+    --font-secondary-heading: var(--font-size-600);
+    --font-body: var(--font-size-300);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  :root {
+    --font-primary-heading: var(--font-size-500);
+    --font-secondary-heading: var(--font-size-450);
+  }
+}

@@ -1,0 +1,20 @@
+:root {
+  // Primary
+  --yellow: hsl(40, 97%, 58%);
+  --dark-navy: hsl(216, 17%, 35%);
+  --dim-gray: hsl(217, 12%, 62%);
+  --light-gray: hsl(212, 41%, 93%);
+
+  // Neutral
+  --snow: hsl(214, 37%, 96%);
+  --light-yellow: hsl(39, 100%, 94%);
+
+  --font-size-900: calc((56 / 16) * 1rem);
+  --font-size-850: calc((48 / 16) * 1rem);
+  --font-size-800: calc((40 / 16) * 1rem);
+  --font-size-700: calc((32 / 16) * 1rem);
+  --font-size-600: calc((24 / 16) * 1rem);
+  --font-size-500: calc((20 / 16) * 1rem);
+  --font-size-450: calc((18 / 16) * 1rem);
+  --font-size-400: calc((15 / 16) * 1rem);
+}

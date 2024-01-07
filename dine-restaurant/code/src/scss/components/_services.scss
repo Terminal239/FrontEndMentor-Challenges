@@ -1,0 +1,195 @@
+.services {
+  padding-block: 8rem;
+  position: relative;
+
+  > div {
+    gap: 6rem;
+    @include flexbox($align: center);
+    > * {
+      flex: 1;
+    }
+  }
+
+  .pattern-curve {
+    top: 0;
+    left: -25%;
+    z-index: -1;
+  }
+}
+
+.service {
+  &__image {
+    box-shadow: 0 16px 4rem -8px #000;
+  }
+
+  &__info {
+    width: 375px;
+    height: 270px;
+
+    h2 {
+      text-transform: capitalize;
+      margin-bottom: 1rem;
+    }
+
+    a {
+      margin-top: auto;
+    }
+
+    button {
+      display: inline-block;
+      max-width: fit-content;
+    }
+
+    margin-bottom: 4rem;
+    @include flexbox($direction: column);
+  }
+
+  &__content {
+    @include flexbox($direction: column);
+  }
+
+  &__selection button {
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+
+    color: hsl(var(--neutral-black), 0.5);
+    position: relative;
+
+    &.selected {
+      color: hsl(var(--neutral-black));
+
+      .pattern-divide {
+        top: 50%;
+        transform: translate3d(0, -50%, 0);
+        left: -7rem;
+        z-index: -1;
+      }
+    }
+  }
+
+  &__image {
+    position: relative;
+
+    .pattern-lines {
+      left: -4rem;
+      top: -2rem;
+    }
+  }
+
+  &__selection ul {
+    gap: 0.75rem;
+    @include flexbox($direction: column);
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .services {
+    padding-block: 8rem;
+
+    > div {
+      gap: 4rem;
+      flex-direction: column;
+    }
+  }
+
+  .service {
+    &__image {
+      box-shadow: 0 16px 4rem -8px #888;
+      max-width: 500px;
+    }
+
+    &__info {
+      text-align: center;
+      height: 225px;
+
+      h2 {
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        padding-inline: 1rem;
+      }
+
+      button {
+        align-self: center;
+      }
+
+      margin-bottom: 0;
+      flex-direction: column;
+    }
+
+    &__content {
+      align-items: center;
+      gap: 3rem;
+    }
+
+    &__selection {
+      order: -1;
+
+      button {
+        &.selected {
+          .pattern-divide {
+            display: none;
+          }
+          border-bottom: 2px solid #9f7e64;
+        }
+      }
+
+      ul {
+        justify-content: space-between;
+        flex-direction: row;
+        gap: 3rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .services {
+    padding-block: 4rem;
+
+    > div {
+      gap: 2rem;
+      flex-direction: column;
+    }
+  }
+
+  .service {
+    &__image {
+      .pattern-lines {
+        display: none;
+      }
+    }
+
+    &__info {
+      width: 100%;
+      h2 {
+        margin-bottom: 1rem;
+      }
+
+      p {
+        padding-inline: 0.375rem;
+      }
+    }
+
+    &__content {
+      gap: 2rem;
+    }
+
+    &__selection {
+      button {
+        &.selected {
+          .pattern-divide {
+            display: none;
+          }
+        }
+      }
+
+      ul {
+        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
+      }
+    }
+  }
+}

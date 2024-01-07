@@ -1,0 +1,32 @@
+.header {
+  margin-bottom: var(--spacing-lg);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--spacing-base);
+}
+
+.button-login {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.container.mobile-navigation {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  background-color: var(--secondary-blue-transparent);
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.container.mobile-navigation nav {
+  margin-left: 0;
+  margin-top: var(--spacing-base);
+}

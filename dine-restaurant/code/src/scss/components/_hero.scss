@@ -1,0 +1,65 @@
+.hero {
+  color: hsl(var(--white));
+  background-image: url(./../assets/homepage/hero-bg-desktop.jpg);
+  background-size: cover;
+  background-position: 50%;
+  padding-block: 2rem 12rem;
+
+  &__content {
+    width: 500px;
+  }
+
+  &__logo {
+    margin-bottom: 8rem;
+  }
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+
+  p {
+    width: 70%;
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .hero {
+    background-image: url(./../assets/homepage/hero-bg-tablet.jpg);
+    background-position: 50% 0;
+
+    &__content {
+      width: 500px;
+      text-align: center;
+      margin-inline: auto;
+    }
+
+    &__logo {
+      display: inline-block;
+      margin-block: 24rem 2rem;
+    }
+
+    h1 {
+      margin-bottom: 1rem;
+    }
+
+    p {
+      width: 100%;
+      margin-bottom: 3rem;
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .hero {
+    background-image: url(./../assets/homepage/hero-bg-mobile.jpg);
+
+    &__content {
+      width: 100%;
+    }
+
+    &__logo {
+      margin-block: 16rem 2rem;
+    }
+  }
+}

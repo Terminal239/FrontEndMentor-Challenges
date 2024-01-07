@@ -1,0 +1,86 @@
+.footer {
+  background-color: var(--neutral-dark-violet);
+  padding-block: var(--spacing-md);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--spacing-3xl);
+}
+
+.inner-container {
+  display: flex;
+  flex: 1;
+  gap: var(--spacing-2xl);
+}
+
+.navigation {
+  display: flex;
+  justify-content: end;
+  flex: 1;
+
+  font-size: var(--font-size-300);
+  gap: var(--spacing-xl);
+}
+
+.socials {
+  display: flex;
+  gap: var(--spacing-xxs);
+  align-items: center;
+
+  align-self: flex-start;
+}
+
+.social-icon {
+  fill: var(--white);
+  cursor: pointer;
+}
+
+.social-icon:hover {
+  fill: var(--primary-cyan);
+}
+
+.navigation-column ul {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-tiny);
+}
+
+.navigation-column p {
+  color: var(--white);
+  font-weight: 700;
+  margin-bottom: var(--spacing-xxxs);
+}
+
+.navigation-column a:is(:visited, :link) {
+  color: var(--neutral-grayish-violet);
+}
+
+.navigation-column a:is(:hover, :active) {
+  color: var(--primary-cyan);
+}
+
+.footer-logo path:first-child {
+  fill: var(--white);
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    padding-top: var(--spacing-xxs);
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+
+    gap: var(--spacing-base);
+  }
+
+  .navigation,
+  .inner-container {
+    flex-direction: column;
+    text-align: center;
+    gap: var(--spacing-sm);
+  }
+}

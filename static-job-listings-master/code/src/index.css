@@ -1,0 +1,110 @@
+:root {
+  --font-size-600: 22px;
+  --font-size-500: 18px;
+  --font-size-400: 15px;
+
+  --spacing-3xl: 120px;
+  --spacing-2xl: 72px;
+  --spacing-xll: 56px;
+  --spacing-xl: 40px;
+  --spacing-lg: 32px;
+  --spacing-l: 26px;
+  --spacing-md: 24px;
+  --spacing-sm: 20px;
+  --spacing-xs: 16px;
+  --spacing-xxs: 14px;
+  --spacing-xxxs: 12px;
+  --spacing-tiny: 8px;
+
+  /* Primary */
+  --primary-color: hsl(180, 29%, 50%);
+  --primary-color-light: hsl(185, 58%, 90%);
+  --tag-background: hsl(185, 58%, 90%);
+
+  /* Neutral */
+  --background-color: hsl(180, 52%, 96%);
+  --filter-tablets-color: hsl(180, 31%, 95%);
+  --dark-grayish-cyan: hsl(180, 8%, 52%);
+  --very-dark-grayish-cyan: hsl(180, 14%, 20%);
+
+  --font-normal: 500;
+  --font-bold: 700;
+
+  font-family: "League Spartan", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+main {
+  min-height: 100%;
+}
+
+body {
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  font-weight: var(--font-bold);
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}

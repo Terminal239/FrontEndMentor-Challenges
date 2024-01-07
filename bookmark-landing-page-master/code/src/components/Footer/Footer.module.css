@@ -1,0 +1,25 @@
+.footer {
+  background-color: var(--secondary-blue);
+}
+
+.container {
+  display: flex;
+  gap: var(--spacing-base);
+}
+
+.footer-logo path:first-child {
+  fill: var(--white);
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    padding-top: var(--spacing-xxs);
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+
+    gap: var(--spacing-xs);
+  }
+}

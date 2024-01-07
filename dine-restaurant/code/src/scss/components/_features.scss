@@ -1,0 +1,102 @@
+.features {
+  gap: 16rem;
+  @include flexbox($direction: column);
+}
+
+.card {
+  position: relative;
+
+  > div {
+    gap: 6rem;
+    @include flexbox($align: center);
+  }
+
+  h2 {
+    margin-bottom: 1.5rem;
+    padding-right: 4rem;
+  }
+
+  &__content {
+    width: 400px;
+    position: relative;
+  }
+
+  &__image {
+    margin-block: -4rem;
+    box-shadow: 0 16px 4rem -8px #000;
+
+    position: relative;
+    z-index: 1;
+  }
+
+  &:nth-child(odd) &__image {
+    order: -1;
+  }
+
+  &:nth-child(odd) .pattern-curve {
+    left: 0;
+  }
+
+  &:nth-child(even) .pattern-curve {
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .features {
+    gap: 10rem;
+    margin-bottom: 8rem;
+    @include flexbox($direction: column);
+  }
+
+  .card {
+    position: relative;
+
+    > div {
+      gap: 8rem;
+      @include flexbox($direction: column, $align: center);
+    }
+
+    h2 {
+      padding-inline: 3rem;
+    }
+
+    .pattern {
+      &-divide {
+        top: -1rem;
+        left: 50%;
+        transform: translate3d(-50%, 0, 0);
+      }
+    }
+
+    &__content {
+      width: 400px;
+      text-align: center;
+    }
+
+    &__image {
+      margin-block: -4rem;
+    }
+
+    &__image {
+      order: -1;
+    }
+
+    &:nth-child(odd) .pattern-curve {
+      left: -50%;
+      top: 35%;
+    }
+
+    &:nth-child(even) .pattern-curve {
+      right: -50%;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card {
+    &__content {
+      width: 100%;
+    }
+  }
+}

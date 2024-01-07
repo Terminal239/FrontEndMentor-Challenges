@@ -1,0 +1,131 @@
+.section-downloads {
+  background-color: var(--neutral-gray-light);
+  padding-block: var(--spacing-lg);
+}
+
+.features-text {
+  text-align: center;
+  width: 50%;
+  margin-inline: auto;
+  margin-bottom: var(--spacing-xl);
+}
+
+.features-text h2 {
+  margin-bottom: var(--spacing-xxxs);
+}
+
+.card-container {
+  display: flex;
+  gap: var(--spacing-xs);
+  justify-content: center;
+  height: 350px;
+
+  position: relative;
+  isolation: isolate;
+}
+
+.card-container::after {
+  content: "";
+  background-color: var(--primary-cyan);
+  height: 8px;
+  width: 8px;
+
+  top: 40%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.feature-card {
+  background-color: var(--white);
+  padding: var(--spacing-xxs);
+  padding-block: var(--spacing-x) var(--spacing-xs);
+  border-radius: 8px;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xxs);
+  font-size: var(--font-size-300);
+  flex: 1;
+
+  position: relative;
+}
+
+.feature-card p {
+  padding-inline-end: var(--spacing-tiny);
+}
+
+.feature-card:nth-child(2) {
+  align-self: center;
+}
+
+.feature-card:nth-child(3) {
+  align-self: flex-end;
+}
+
+.illustration {
+  background-color: var(--primary-dark-violet);
+
+  width: 88px;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  transform: translate3d(0, -50%, 0);
+  top: 0;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 767px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-xl);
+    height: fit-content;
+  }
+
+  .card-container::after {
+    width: 8px;
+    height: 100%;
+
+    top: 0;
+    left: 50%;
+    transform: translate3d(-50%, 0, 0);
+  }
+
+  .features-text {
+    width: 100%;
+    font-size: var(--font-size-300);
+  }
+
+  .features-text h2 {
+    margin-bottom: var(--spacing-xxs);
+  }
+
+  .feature-card {
+    text-align: center;
+    gap: var(--spacing-xxs);
+    font-size: var(--font-size-300);
+    flex: 1;
+  }
+
+  .feature-card p {
+    padding: 0;
+  }
+
+  .feature-card:nth-child(2) {
+    align-self: initial;
+  }
+
+  .feature-card:nth-child(3) {
+    align-self: initial;
+  }
+
+  .illustration {
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+  }
+}

@@ -1,0 +1,85 @@
+.instructions {
+  isolation: isolate;
+  margin-bottom: 200px;
+  position: relative;
+
+  > div:not(.pattern) {
+    display: flex;
+    gap: 1.875rem;
+    position: relative;
+
+    @media screen and (max-width: 950px) {
+      width: 575px;
+      flex-direction: column;
+      gap: 5rem;
+    }
+
+    @media screen and (max-width: 740px) {
+      width: 100%;
+      gap: 3rem;
+
+      align-items: center;
+      text-align: center;
+    }
+  }
+
+  .pattern-line {
+    background-color: #e5ecf4;
+    width: 100%;
+    height: 16px;
+
+    top: 1.5rem;
+    left: -30%;
+    z-index: -1;
+
+    @media screen and (max-width: 950px) {
+      height: 100%;
+      width: 16px;
+
+      left: 3.5rem;
+      top: -9rem;
+    }
+
+    @media screen and (max-width: 740px) {
+      display: none;
+    }
+  }
+}
+
+.instruction__card {
+  display: flex;
+  flex-direction: column;
+
+  img {
+    margin-bottom: 2.5rem;
+
+    @media screen and (max-width: 950px) {
+      margin-right: 4rem;
+    }
+
+    @media screen and (max-width: 740px) {
+      margin-inline: auto;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  h4 {
+    margin-bottom: 1.25rem;
+
+    @media screen and (max-width: 950px) {
+      flex-direction: row;
+    }
+
+    @media screen and (max-width: 950px) {
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  @media screen and (max-width: 950px) {
+    flex-direction: row;
+  }
+
+  @media screen and (max-width: 740px) {
+    flex-direction: column;
+  }
+}

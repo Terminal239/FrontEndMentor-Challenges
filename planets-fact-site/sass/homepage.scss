@@ -1,0 +1,100 @@
+.introduction {
+  padding-block: 2rem;
+
+  .planets {
+    display: grid;
+    animation: appear 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  button {
+    padding: 0.5rem 2rem;
+    background-color: var(--primary-purple);
+  }
+
+  .text {
+    text-align: center;
+    margin-bottom: 4rem;
+    max-width: 750px;
+    margin-inline: auto;
+
+    h2 {
+      font-size: 1.75rem;
+      margin-bottom: 1.25rem;
+      line-height: 1.2;
+    }
+
+    p {
+      font-size: 1.125rem;
+    }
+
+    @media screen and (min-width: 650px) {
+      h2 {
+        font-size: 2.25rem;
+        margin-bottom: 1.5rem;
+      }
+
+      p {
+        font-size: 1.25rem;
+      }
+    }
+  }
+
+  .item {
+    margin-bottom: 4rem;
+    border-bottom: 1px solid var(--item-border);
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+
+    h3 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    button {
+      align-self: flex-start;
+      margin-top: auto;
+    }
+
+    @media screen and (min-width: 650px) {
+      h3 {
+        font-size: 1.75rem;
+        margin-bottom: 1.125rem;
+      }
+
+      p {
+        font-size: 1.125rem;
+        margin-bottom: 3rem;
+      }
+
+      button {
+        font-size: 1.125rem;
+      }
+    }
+  }
+
+  @media screen and (min-width: 650px) {
+    .planets {
+      border-top: 1px solid var(--item-border);
+      padding-top: 2rem;
+
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 4rem;
+    }
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

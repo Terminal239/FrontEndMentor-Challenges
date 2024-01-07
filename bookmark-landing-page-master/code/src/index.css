@@ -1,0 +1,118 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --font-size-xl: 48px;
+  --font-size-lg: 32px;
+  --font-size-md: 28px;
+  --font-size-m: 24px;
+  --font-size-base: 20px;
+  --font-size-sm: 18px;
+  --font-size-xs: 16px;
+  --font-size-xxs: 14px;
+
+  --spacing-xl: 160px;
+  --spacing-l: 120px;
+  --spacing-g: 96px;
+  --spacing-lg: 80px;
+  --spacing-md: 72px;
+  --spacing-m: 60px;
+  --spacing-base: 44px;
+  --spacing-sm: 40px;
+  --spacing-xs: 32px;
+  --spacing-xss: 28px;
+  --spacing-xxs: 24px;
+  --spacing-xxxs: 16px;
+  --spacing-tiny: 8px;
+
+  --primary-blue: hsl(231, 69%, 60%);
+  --primary-red: hsl(0, 94%, 66%);
+  --secondary-blue: hsl(229, 31%, 21%);
+  --secondary-blue-transparent: hsla(229 31% 21% / 0.9);
+  --body-text: hsl(229, 8%, 60%);
+  --border: hsl(229, 8%, 80%);
+  --white: hsl(0, 0%, 100%);
+
+  --font-primary-heading: var(--font-size-xl);
+  --font-secondary-heading: var(--font-size-lg);
+  --font-body-text: var(--font-size-sm);
+  --font-common: var(--font-size-xxs);
+
+  --font-bold: 500;
+
+  --shadow: #bbb;
+
+  font-family: "Rubik", sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+  :root {
+    --font-primary-heading: var(--font-size-md);
+    --font-secondary-heading: var(--font-size-base);
+    --font-body-text: var(--font-size-xxs);
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+}
+
+button {
+  display: inline-block;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+ul,
+ol,
+li,
+a {
+  list-style-type: none;
+  display: inline-block;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  line-height: 1;
+}
+
+p {
+  overflow-wrap: break-word;
+}
+
+#root {
+  isolation: isolate;
+}

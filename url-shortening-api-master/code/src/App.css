@@ -1,0 +1,48 @@
+header,
+footer {
+  font-size: var(--font-common);
+}
+
+body {
+  font-size: var(--font-size-400);
+  color: var(--neutral-grayish-violet);
+}
+
+header,
+footer,
+main {
+  isolation: isolate;
+}
+
+header {
+  position: relative;
+  z-index: 2;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--neutral-dark-violet);
+}
+
+h1 {
+  font-size: var(--font-h1);
+}
+
+h2 {
+  font-size: var(--font-h2);
+}
+
+h3 {
+  font-size: var(--font-h3);
+}
+
+h4 {
+  font-size: var(--font-size-450);
+}
+
+a:is(:visited, :link) {
+  text-decoration: none;
+  font-size: var(--font-size-300);
+}

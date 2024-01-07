@@ -1,0 +1,263 @@
+.information {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+  @media screen and (min-width: 650px) {
+    grid-template-columns: 1fr 300px;
+    column-gap: 3.5rem;
+  }
+
+  @media screen and (min-width: 1000px) {
+    grid-template-columns: 1fr 310px;
+    column-gap: 5rem;
+    padding-block: 5rem;
+
+    min-height: 700px;
+  }
+}
+
+/*///////////////////////////////
+//////      CONTENT       ///////
+///////////////////////////////*/
+
+.content-tab {
+  grid-row: 1 / 2;
+  margin-inline: -1.5rem;
+  padding-inline: 1.5rem;
+  align-self: stretch;
+  min-width: 100%;
+
+  color: var(--grey);
+  border-color: currentColor;
+  border-style: solid;
+  border-width: 1px;
+  border-left-width: 0;
+  border-right-width: 0;
+
+  li {
+    position: relative;
+
+    @media screen and (min-width: 650px) {
+      color: #fff;
+      border: 1px solid var(--item-border);
+    }
+  }
+
+  li.selected {
+    color: #fff;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+
+      height: 4px;
+      width: 100%;
+      background-color: var(--primary-purple);
+
+      @media screen and (min-width: 650px) {
+        display: none;
+      }
+    }
+
+    @media screen and (min-width: 650px) {
+      background-color: var(--primary-purple);
+    }
+  }
+
+  button {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding-block: 1.25rem;
+    padding-inline: 0.5rem 0.25rem;
+    width: 100%;
+
+    @media screen and (min-width: 650px) {
+      display: flex;
+      align-items: center;
+      font-weight: 700;
+
+      padding-block: 1rem 0.75rem;
+      padding-inline: 1rem;
+    }
+  }
+
+  @media screen and (min-width: 650px) {
+    grid-row: auto;
+    border: none;
+    align-self: center;
+
+    ul {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 1rem;
+    }
+  }
+
+  span {
+    display: none;
+    width: 2rem;
+    margin-right: 1rem;
+
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: var(--text);
+
+    @media screen and (min-width: 650px) {
+      display: inline;
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    align-self: flex-end;
+  }
+}
+
+/*///////////////////////////////
+//////      IMAGE       ////////
+///////////////////////////////*/
+
+.planet-image {
+  text-align: center;
+  padding-block: 4rem;
+  position: relative;
+
+  @media screen and (min-width: 650px) {
+    grid-column: span 2;
+    width: 75%;
+    justify-self: center;
+    animation: appear 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  @media screen and (min-width: 1000px) {
+    width: 100%;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    padding: 0;
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/*///////////////////////////////
+//////      INFORMATION       ////////
+///////////////////////////////*/
+
+.content {
+  text-align: center;
+  margin-bottom: 2rem;
+  min-width: 100%;
+
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+
+    @media screen and (min-width: 650px) {
+      font-size: 3rem;
+      margin-bottom: 2rem;
+    }
+
+    @media screen and (min-width: 1000px) {
+      font-size: 5rem;
+    }
+  }
+
+  p.text {
+    color: var(--text);
+    margin-bottom: 0.75rem;
+
+    @media screen and (min-width: 650px) {
+      margin-bottom: 2.25rem;
+    }
+  }
+
+  p.source {
+    color: var(--grey);
+  }
+
+  a.source-link {
+    font-weight: 700;
+    text-decoration: none;
+
+    &:is(:link, :visited) {
+      color: var(--grey);
+    }
+
+    span {
+      text-decoration: underline;
+      margin-left: 0.25rem;
+    }
+  }
+
+  @media screen and (min-width: 650px) {
+    text-align: left;
+  }
+
+  @media screen and (min-width: 1000px) {
+    font-size: 1rem;
+  }
+}
+
+/*///////////////////////////////
+//////    STATISTICS     ////////
+///////////////////////////////*/
+
+.statistics {
+  display: grid;
+  gap: 0.5rem;
+  margin-bottom: 4rem;
+
+  @media screen and (min-width: 650px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  @media screen and (min-width: 1000px) {
+    margin-bottom: 2rem;
+  }
+}
+
+.statistics .item {
+  border: 1px solid var(--item-border);
+  padding: 0.75rem 1.5rem;
+  text-transform: uppercase;
+
+  h3 {
+    color: var(--grey);
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+
+    @media screen and (min-width: 650px) {
+      font-size: 0.675rem;
+    }
+  }
+
+  p {
+    font-family: "Antonio", sans-serif;
+    font-size: 1.5rem;
+
+    @media screen and (min-width: 1000px) {
+      font-size: 2rem;
+    }
+  }
+
+  @media screen and (min-width: 650px) {
+    padding: 1.25rem 0.875rem;
+    flex-direction: column;
+    align-items: start;
+    gap: 0.5rem;
+  }
+}

@@ -1,0 +1,29 @@
+.button {
+  line-height: 1;
+
+  text-transform: uppercase;
+  padding: 1.25rem 3rem;
+  letter-spacing: 2px;
+
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.button-primary {
+  background-color: hsl(var(--neutral-black));
+  color: hsl(var(--white));
+}
+
+.button-primary:hover {
+  color: hsl(var(--neutral-black));
+  background-color: hsl(var(--white));
+  outline: 1px solid currentColor;
+}
+
+.button-secondary {
+  border: 1px solid currentColor;
+}
+
+.button-secondary:hover {
+  background-color: hsl(var(--white));
+  color: hsl(var(--neutral-black));
+}

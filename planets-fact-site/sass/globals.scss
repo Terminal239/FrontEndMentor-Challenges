@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@400;500;600;700&family=League+Spartan:wght@400;500;600;700&display=swap");
+
+:root {
+  --primary-purple: #6d2ed5;
+  --primary-dark-blue: #080821;
+  --text: #eaebf3;
+  --grey: #828396;
+  --item-border: #373753;
+
+  --mercury: #419db9;
+  --venus: #a34d28;
+  --earth: #6f2ed6;
+  --mars: #d14e33;
+  --jupiter: #d93b36;
+  --saturn: #cb5020;
+  --uranus: #1ec2a1;
+  --neptune: #2d68f0;
+
+  --font-h1: 1.75rem;
+  --font-content: 0.6875rem;
+  --font-link: 0.75rem;
+  --stat-title: 0.5rem;
+  --stat-number: 1.25rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+
+  background-color: #070625;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  font-style: italic;
+  background-repeat: no-repeat;
+  background-size: cover;
+  shape-margin: 1rem;
+}
+
+a {
+  &:is(:link, :visited) {
+    color: currentColor;
+    text-decoration: none;
+  }
+}
+
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+  text-align: center;
+  line-height: 1;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1;
+}
+
+h1,
+h2 {
+  font-family: "Antonio", sans-serif;
+  text-transform: uppercase;
+}

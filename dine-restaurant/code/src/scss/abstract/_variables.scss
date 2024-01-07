@@ -1,0 +1,29 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --font-size-800: calc((64 / 16) * 1rem);
+  --font-size-700: calc((40 / 16) * 1rem);
+  --font-size-650: calc((36 / 16) * 1rem);
+  --font-size-600: calc((32 / 16) * 1rem);
+  --font-size-500: calc((28 / 16) * 1rem);
+  --font-size-450: calc((24 / 16) * 1rem);
+  --font-size-400: calc((18 / 16) * 1rem);
+  --font-size-350: calc((16 / 16) * 1rem);
+  --font-size-300: calc((14 / 16) * 1rem);
+  --font-size-250: calc((12 / 16) * 1rem);
+
+  --font-primary-heading: var(--font-size-800);
+  --font-secondary-heading: var(--font-size-700);
+  --font-body: var(--font-size-350);
+  --font-common: var(--font-size-250);
+
+  --neutral-text: 217, 20%, 18%;
+  --neutral-black: 0, 0%, 7%;
+  --white: 0, 0%, 100%;
+
+  font-family: "League Spartan", sans-serif;
+}

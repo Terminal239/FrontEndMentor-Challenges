@@ -1,0 +1,19 @@
+header {
+  height: 135px;
+  background: url(./assets/bg-header-desktop.svg);
+  background-color: var(--primary-color);
+}
+
+main {
+  padding-block: var(--spacing-3xl);
+  background-color: var(--background-color);
+  padding-inline: var(--spacing-xxxs);
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 156px;
+    background: url(./assets/bg-header-mobile.svg);
+    background-color: var(--primary-color);
+  }
+}

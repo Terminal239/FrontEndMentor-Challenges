@@ -1,0 +1,86 @@
+.container {
+}
+
+.downloads-text {
+  text-align: center;
+  width: 50%;
+  margin-inline: auto;
+  margin-bottom: var(--spacing-base);
+}
+
+.downloads-text h2 {
+  margin-bottom: var(--spacing-xss);
+}
+
+.card-container {
+  display: flex;
+  gap: var(--spacing-xs);
+  justify-content: center;
+  height: 430px;
+}
+
+.download-card {
+  padding: var(--spacing-xxs);
+  box-shadow: 0px 4px 16px -8px var(--shadow);
+  width: 260px;
+  height: fit-content;
+  text-align: center;
+
+  background: url("../../assets/bg-dots.svg");
+  background-repeat: no-repeat;
+  background-position: 0% 75%;
+  border-radius: 8px;
+}
+
+.download-card:nth-child(2) {
+  align-self: center;
+}
+
+.download-card:nth-child(3) {
+  align-self: flex-end;
+}
+
+.download-card-info {
+  margin-bottom: var(--spacing-md);
+  text-align: center;
+}
+
+.download-card-info h4 {
+  margin-bottom: var(--spacing-xxxs);
+}
+
+.download-card-info p {
+  font-size: var(--font-size-xxs);
+  line-height: 1;
+}
+
+.download-card-info img {
+  margin-inline: auto;
+  margin-bottom: var(--spacing-xs);
+}
+
+@media screen and (max-width: 767px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-base);
+    height: fit-content;
+  }
+
+  .downloads-text {
+    width: 100%;
+    padding-inline: var(--spacing-xxxs);
+  }
+
+  .downloads-text h2 {
+    margin-bottom: var(--spacing-xxxs);
+  }
+
+  .download-card:nth-child(2) {
+    align-self: initial;
+  }
+
+  .download-card:nth-child(3) {
+    align-self: initial;
+  }
+}

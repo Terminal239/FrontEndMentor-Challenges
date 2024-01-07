@@ -1,0 +1,26 @@
+.hero-background.about {
+  background-image: url(/images/about-hero-desktop.jpg);
+
+  @media screen and (max-width: 950px) {
+    background-image: url(/images/about-hero-tablet.jpg);
+  }
+
+  @media screen and (max-width: 740px) {
+    background-image: url(/images/about-hero-mobile.jpg);
+  }
+
+  .pattern {
+    top: 50%;
+    right: -2rem;
+    transform: translate3d(0, -50%, 0);
+  }
+}
+
+.mission {
+  margin-bottom: 120px;
+
+  .pattern-upward-arrow {
+    left: -6rem;
+    bottom: 2rem;
+  }
+}

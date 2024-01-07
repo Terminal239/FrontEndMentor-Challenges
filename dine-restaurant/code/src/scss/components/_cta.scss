@@ -1,0 +1,53 @@
+.cta {
+  background-image: url(./../assets/homepage/ready-bg-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 240px;
+
+  > div {
+    height: 100%;
+    color: hsl(var(--white));
+    @include flexbox($align: center, $justify: space-between);
+  }
+
+  h2 {
+    font-size: var(--font-size-650);
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .cta {
+    background-image: url(./../assets/homepage/ready-bg-tablet.jpg);
+
+    > div {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      gap: 1.4rem;
+    }
+
+    h2 {
+      font-size: var(--font-size-600);
+    }
+
+    button {
+      align-self: center;
+    }
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .cta {
+    background-image: url(./../assets/homepage/ready-bg-mobile.jpg);
+
+    > div {
+      gap: 1.5rem;
+    }
+
+    h2 {
+      font-size: 26px;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: min-content;
+  gap: var(--spacing-xxxs);
+}
+
+.hero-text {
+  align-self: flex-end;
+  padding-bottom: var(--spacing-base);
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.hero-action-container {
+  display: flex;
+  gap: var(--spacing-xxxs);
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .hero-text {
+    order: 1;
+    text-align: center;
+  }
+
+  .hero-paragraph {
+    padding-inline: 32px;
+  }
+
+  .hero-action-container {
+    justify-content: center;
+  }
+
+  .container button {
+    padding: 16px;
+  }
+}

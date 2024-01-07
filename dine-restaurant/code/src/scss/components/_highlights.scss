@@ -1,0 +1,142 @@
+.highlights {
+  padding-block: 14rem 10rem;
+  background-color: hsl(var(--neutral-black));
+  color: hsl(var(--white));
+  isolation: isolate;
+
+  > div {
+    gap: 6rem;
+    @include flexbox;
+  }
+
+  &__text {
+    width: 550px;
+    position: relative;
+
+    h2 {
+      margin-bottom: 2rem;
+    }
+
+    p {
+      padding-inline-end: 1rem;
+    }
+  }
+
+  &__container {
+    @include flexbox($direction: column);
+  }
+
+  &__item {
+    gap: 4rem;
+    padding-block: 2rem;
+    border-bottom: 1px solid #333;
+
+    h3 {
+      margin-bottom: 0.5rem;
+    }
+    @include flexbox($align: center);
+  }
+
+  &__item:first-of-type {
+    padding-top: 0;
+  }
+
+  &__item:last-of-type {
+    border-bottom: none;
+  }
+
+  &__content {
+    flex: 1;
+  }
+
+  &__image {
+    position: relative;
+
+    .pattern-divide {
+      top: 12px;
+      right: -32px;
+      z-index: -1;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .highlights {
+    padding-block: 8rem 6rem;
+
+    > div {
+      gap: 4rem;
+      @include flexbox($direction: column, $align: center);
+    }
+
+    &__text {
+      width: 400px;
+      text-align: center;
+
+      h2 {
+        margin-bottom: 1.5rem;
+        font-size: var(--font-size-650);
+      }
+
+      p {
+        padding-inline: 1.25rem;
+      }
+
+      .pattern-divide {
+        left: 50%;
+        transform: translate3d(-50%, 0, 0);
+      }
+    }
+
+    &__container {
+      width: 500px;
+      @include flexbox($direction: column);
+    }
+
+    &__image .pattern-divide {
+      top: 16px;
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .highlights {
+    padding-block: 6rem 4rem;
+
+    &__text {
+      width: 100%;
+
+      p {
+        padding: 0;
+      }
+
+      .pattern-divide {
+        top: -2rem;
+      }
+    }
+
+    &__container {
+      width: 100%;
+      @include flexbox($direction: column, $align: center);
+    }
+
+    &__item {
+      gap: 2.25rem;
+      padding-block: 1.25rem 3rem;
+
+      @include flexbox($align: center, $direction: column);
+    }
+
+    &__content {
+      text-align: center;
+
+      p {
+        padding-inline: 2rem;
+      }
+    }
+
+    &__image .pattern-divide {
+      display: none;
+    }
+  }
+}

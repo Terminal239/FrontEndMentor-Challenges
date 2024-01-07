@@ -1,0 +1,124 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --font-size-800: 80px;
+  --font-size-700: 40px;
+  --font-size-650: 28px;
+  --font-size-600: 24px;
+  --font-size-500: 22px;
+  --font-size-450: 20px;
+  --font-size-400: 18px;
+  --font-size-300: 16px;
+
+  --spacing-3xl: 160px;
+  --spacing-2xl: 120px;
+  --spacing-xl: 96px;
+  --spacing-x: 80px;
+  --spacing-lg: 72px;
+  --spacing-md: 60px;
+  --spacing-base: 44px;
+  --spacing-sm: 40px;
+  --spacing-xs: 32px;
+  --spacing-xss: 28px;
+  --spacing-xxs: 24px;
+  --spacing-xxxs: 16px;
+  --spacing-tiny: 8px;
+
+  --primary-cyan: hsl(180, 66%, 49%);
+  --primary-cyan-light: hsl(180, 66%, 70%);
+  --primary-dark-violet: hsl(257, 27%, 26%);
+  --neutral-gray: hsl(0, 0%, 75%);
+  --neutral-gray-light: hsl(230, 25%, 95%);
+  --neutral-grayish-violet: hsl(257, 7%, 63%);
+  --neutral-dark-blue: hsl(255, 11%, 22%);
+  --neutral-dark-violet: hsl(260, 8%, 14%);
+  --white: hsl(0, 0%, 100%);
+
+  --font-h1: var(--font-size-800);
+  --font-h2: var(--font-size-700);
+  --font-h3: var(--font-size-500);
+  --font-body-text: var(--font-size-400);
+
+  --font-normal: 500;
+  --font-bold: 700;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: var(--font-normal);
+}
+
+@media screen and (max-width: 767px) {
+  :root {
+    --font-h1: var(--font-size-700);
+    --font-h2: var(--font-size-650);
+    --font-body-text: var(--font-size-350);
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.6;
+}
+
+button {
+  display: inline-block;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  display: inline-block;
+}
+
+a {
+  display: inline-block;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  border: none;
+  background: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  line-height: 1.1;
+}
+
+p {
+  overflow-wrap: break-word;
+}
+
+#root {
+  isolation: isolate;
+}

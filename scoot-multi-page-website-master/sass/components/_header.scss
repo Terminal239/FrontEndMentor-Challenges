@@ -1,0 +1,26 @@
+header {
+  isolation: isolate;
+  z-index: 4;
+
+  > div {
+    height: 96px;
+
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+
+    button.button-primary {
+      margin-left: auto;
+    }
+
+    @media screen and (max-width: 740px) {
+      height: 64px;
+      justify-content: center;
+
+      > button {
+        position: absolute;
+        left: 0;
+      }
+    }
+  }
+}
