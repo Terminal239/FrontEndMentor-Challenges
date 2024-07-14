@@ -4,17 +4,15 @@ This is a solution to the [Manage landing page challenge on Frontend Mentor](htt
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Frontend Mentor - Manage landing page solution](#frontend-mentor---manage-landing-page-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+  - [Author](#author)
 
 ## Overview
 
@@ -35,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/TerminalEagle/FrontEndMentor-Challenges/tree/master/manage-landing-page-master)
+- [Solution URL](https://github.com/Terminal239/FrontEndMentor-Challenges/tree/master/manage-landing-page-master)
 - [Live Site URL](https://64e9d2ad067a02297126a61a--starlit-swan-624fc0.netlify.app/)
 
 ## My process
@@ -51,4 +49,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@TerminalEagle](https://www.frontendmentor.io/profile/TerminalEagle)
+- Frontend Mentor - [@Terminal239](https://www.frontendmentor.io/profile/Terminal239)

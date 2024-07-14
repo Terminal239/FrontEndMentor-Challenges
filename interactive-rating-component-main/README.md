@@ -4,17 +4,17 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Frontend Mentor - Interactive rating component solution](#frontend-mentor---interactive-rating-component-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+  - [Desktop Version](#desktop-version)
+  - [Mobile Version](#mobile-version)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+  - [Author](#author)
 
 ## Overview
 
@@ -41,7 +41,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/TerminalEagle/FrontEndMentor-Challenges/tree/master/interactive-rating-component-main)
+- [Solution URL](https://github.com/Terminal239/FrontEndMentor-Challenges/tree/master/interactive-rating-component-main)
 - [Live Site URL](https://64eb497b8c801463db2c04a8--luminous-arithmetic-23e2cd.netlify.app/)
 
 ## My process
@@ -56,4 +56,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@TerminalEagle](https://www.frontendmentor.io/profile/TerminalEagle)
+- Frontend Mentor - [@Terminal239](https://www.frontendmentor.io/profile/Terminal239)

@@ -4,13 +4,15 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
+- [Frontend Mentor - Newsletter sign-up form with success message solution](#frontend-mentor---newsletter-sign-up-form-with-success-message-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+  - [Author](#author)
 
 ## Overview
 
@@ -33,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/TerminalEagle/FrontEndMentor-Challenges/tree/master/newsletter-sign-up-with-success-message-main)
+- [Solution URL](https://github.com/Terminal239/FrontEndMentor-Challenges/tree/master/newsletter-sign-up-with-success-message-main)
 - [Live Site URL](https://eclectic-kheer-fe6d4a.netlify.app/)
 
 ## My process
@@ -48,4 +50,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@TerminalEagle](https://www.frontendmentor.io/profile/TerminalEagle)
+- Frontend Mentor - [@Terminal239](https://www.frontendmentor.io/profile/Terminal239)

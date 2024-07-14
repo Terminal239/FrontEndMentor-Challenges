@@ -1,58 +1,27 @@
-# Frontend Mentor - Shortly URL shortening API Challenge solution
+# React + TypeScript + Vite
 
-This is a solution to the [Shortly URL shortening API Challenge challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Table of contents
+Currently, two official plugins are available:
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
-- [Screenshot](#screenshot)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Overview
+## Expanding the ESLint configuration
 
-### The challenge
+If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-Users should be able to:
+- Configure the top-level `parserOptions` property like this:
 
-- View the optimal layout for the site depending on their device's screen size
-- Shorten any valid URL
-- See a list of their shortened links, even after refreshing the browser
-- Copy the shortened link to their clipboard in a single click
-- Receive an error message when the `form` is submitted if:
-  - The `input` field is empty
+```js
+   parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    project: ['./tsconfig.json', './tsconfig.node.json'],
+    tsconfigRootDir: __dirname,
+   },
+```
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-### Links
-
-- [Solution URL](https://github.com/TerminalEagle/url-shortening-api-master)
-- [Live Site URL](https://url-shortenening-website.netlify.app/)
-
-## My process
-
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- TypeScript
-- [React](https://reactjs.org/) - JS library
-
-## Author
-
-- Frontend Mentor - [@TerminalEagle](https://www.frontendmentor.io/profile/TerminalEagle)
-
-## Screenshot
-
-![](./screenshots/desktop-layout.png)
-![](./screenshots/mobile-layout.png)
+- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
+- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
+- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list

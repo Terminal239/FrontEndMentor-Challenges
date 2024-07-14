@@ -4,17 +4,19 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
+- [Frontend Mentor - QR code component solution](#frontend-mentor---qr-code-component-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+  - [Author](#author)
 
 ## Overview
 
 ### Links
 
-- [Solution URL](https://github.com/TerminalEagle/FrontEndMentor-Challenges/tree/master/QR-Code-Component-main)
+- [Solution URL](https://github.com/Terminal239/FrontEndMentor-Challenges/tree/master/QR-Code-Component-main)
 - [Live Site URL](https://64eb53e05e38216a17e87c77--soft-quokka-3228ac.netlify.app/)
 
 ## My process
@@ -28,4 +30,4 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Author
 
-- Frontend Mentor - [@TerminalEagle](https://www.frontendmentor.io/profile/TerminalEagle)
+- Frontend Mentor - [@Terminal239](https://www.frontendmentor.io/profile/Terminal239)

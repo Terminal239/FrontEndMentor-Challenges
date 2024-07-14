@@ -4,13 +4,15 @@ This is a solution to the [IP address tracker challenge on Frontend Mentor](http
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
-- [Screenshot](#screenshot)
+- [Frontend Mentor - IP address tracker solution](#frontend-mentor---ip-address-tracker-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+  - [Author](#author)
+  - [Screenshots](#screenshots)
 
 ## Overview
 
@@ -25,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/TerminalEagle/ip-address-tracker-master)
+- [Solution URL](https://github.com/Terminal239/ip-address-tracker-master)
 - [Live Site URL](https://ip-address-tracking-website.netlify.app/)
 
 ## My process
@@ -42,7 +44,7 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@TerminalEagle](https://www.frontendmentor.io/profile/TerminalEagle)
+- Frontend Mentor - [@Terminal239](https://www.frontendmentor.io/profile/Terminal239)
 
 ## Screenshots
 

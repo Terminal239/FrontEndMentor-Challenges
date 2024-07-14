@@ -4,13 +4,15 @@ This is a solution to the [Notifications page challenge on Frontend Mentor](http
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
-- [Screenshot](#screenshot)
+- [Frontend Mentor - Notifications page solution](#frontend-mentor---notifications-page-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+  - [Author](#author)
+  - [Screenshots](#screenshots)
 
 ## Overview
 
@@ -25,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/TerminalEagle/notifications-page-main)
+- [Solution URL](https://github.com/Terminal239/notifications-page-main)
 - [Live Site URL](https://page-notification.netlify.app/)
 
 ## My process
@@ -44,7 +46,7 @@ Users should be able to:
 ## Author
 
 - [Website](https://dev-forge.netlify.app)
-- Frontend Mentor - [@TerminalEagle](https://www.frontendmentor.io/profile/TerminalEagle)
+- Frontend Mentor - [@Terminal239](https://www.frontendmentor.io/profile/Terminal239)
 
 ## Screenshots
 

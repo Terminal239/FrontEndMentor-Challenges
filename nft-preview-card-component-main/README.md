@@ -4,13 +4,15 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
+- [Frontend Mentor - NFT preview card component solution](#frontend-mentor---nft-preview-card-component-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+  - [Author](#author)
 
 ## Overview
 
@@ -28,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/TerminalEagle/FrontEndMentor-Challenges/tree/master/nft-preview-card-component-main)
+- Solution URL: [Solution](https://github.com/Terminal239/FrontEndMentor-Challenges/tree/master/nft-preview-card-component-main)
 - Live Site URL: [Live Site](https://64eb51faf3c77064912dc8bc--boisterous-pudding-c0e969.netlify.app/)
 
 ## My process
@@ -42,4 +44,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@TerminalEagle](https://www.frontendmentor.io/profile/TerminalEagle)
+- Frontend Mentor - [@Terminal239](https://www.frontendmentor.io/profile/Terminal239)

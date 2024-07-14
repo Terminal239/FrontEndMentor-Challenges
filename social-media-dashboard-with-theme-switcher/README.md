@@ -4,17 +4,15 @@ This is a solution to the [Social media dashboard with theme switcher challenge 
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Frontend Mentor - Social media dashboard with theme switcher solution](#frontend-mentor---social-media-dashboard-with-theme-switcher-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+  - [Author](#author)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -35,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://github.com/TerminalEagle/FrontEndMentor-Challenges/tree/master/social-media-dashboard-with-theme-switcher)
+- [Solution](https://github.com/Terminal239/FrontEndMentor-Challenges/tree/master/social-media-dashboard-with-theme-switcher)
 - [Live Site URL](https://64eb55d34e0fc5662843b44f--reliable-monstera-5b09ba.netlify.app/)
 
 ## My process
@@ -51,4 +49,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@TerminalEagle](https://www.frontendmentor.io/profile/TerminalEagle)
+- Frontend Mentor - [@Terminal239](https://www.frontendmentor.io/profile/Terminal239)

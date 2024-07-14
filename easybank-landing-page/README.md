@@ -4,17 +4,15 @@ This is a solution to the [Easybank landing page challenge on Frontend Mentor](h
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Frontend Mentor - Easybank landing page solution](#frontend-mentor---easybank-landing-page-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+  - [Author](#author)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -33,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://github.com/TerminalEagle/FrontEndMentor-Challenges/tree/master/easybank-landing-page)
+- [Solution](https://github.com/Terminal239/FrontEndMentor-Challenges/tree/master/easybank-landing-page)
 - [Live Site URL](https://64e7411a04c0f3778194ce49--dazzling-capybara-174eb0.netlify.app/)
 
 ## My process
@@ -49,4 +47,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@TerminalEagle](https://www.frontendmentor.io/profile/TerminalEagle)
+- Frontend Mentor - [@Terminal239](https://www.frontendmentor.io/profile/Terminal239)

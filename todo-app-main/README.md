@@ -4,13 +4,15 @@ This is a solution to the [Todo app challenge on Frontend Mentor](https://www.fr
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
-- [Screenshot](#screenshot)
+- [Frontend Mentor - Todo app solution](#frontend-mentor---todo-app-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+  - [Author](#author)
+  - [Screenshot](#screenshot)
 
 ## Overview
 
@@ -29,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/TerminalEagle/todo-app-main)
+- [Solution URL](https://github.com/Terminal239/todo-app-main)
 - [Live Site URL](https://todo-list-application-fem.netlify.app/)
 
 ## My process
@@ -46,7 +48,7 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@TerminalEagle](https://www.frontendmentor.io/profile/TerminalEagle)
+- Frontend Mentor - [@Terminal239](https://www.frontendmentor.io/profile/Terminal239)
 
 ## Screenshot
 

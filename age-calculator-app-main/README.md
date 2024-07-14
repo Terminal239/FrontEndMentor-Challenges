@@ -4,9 +4,12 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
 
 ## Table of contents
 
+- [Welcome! 👋](#welcome-)
+- [Table of contents](#table-of-contents)
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -42,7 +45,7 @@ Your users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/TerminalEagle/FrontEndMentor-Challenges/tree/master/age-calculator-app-main)
+- [Solution URL](https://github.com/Terminal239/FrontEndMentor-Challenges/tree/master/age-calculator-app-main)
 - [Live Site URL](https://genuine-ganache-5be36e.netlify.app/)
 
 ## My process
@@ -76,4 +79,4 @@ Code accessible by using the `aria`, `role` labels in the code for containers wh
 
 ## Author
 
-- Frontend Mentor - [@TerminalEagle](https://www.frontendmentor.io/profile/TerminalEagle)
+- Frontend Mentor - [@Terminal239](https://www.frontendmentor.io/profile/Terminal239)

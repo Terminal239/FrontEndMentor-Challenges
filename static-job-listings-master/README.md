@@ -4,13 +4,15 @@ This is a solution to the [Job listings with filtering challenge on Frontend Men
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
-- [Screenshot](#screenshot)
+- [Frontend Mentor - Job listings with filtering solution](#frontend-mentor---job-listings-with-filtering-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+  - [Author](#author)
+    - [Screenshot](#screenshot)
 
 ## Overview
 
@@ -24,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/TerminalEagle/static-job-listings-master)
+- [Solution URL](https://github.com/Terminal239/static-job-listings-master)
 - [Live Site URL](https://static-job-listings-webpage.netlify.app/)
 
 ## My process
@@ -41,7 +43,7 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@TerminalEagle](https://www.frontendmentor.io/profile/TerminalEagle)
+- Frontend Mentor - [@Terminal239](https://www.frontendmentor.io/profile/Terminal239)
 
 ### Screenshot
 

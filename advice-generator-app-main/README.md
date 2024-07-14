@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/TerminalEagle/FrontEndMentor-Challenges/tree/master/advice-generator-app-main)
+- [Solution URL](https://github.com/Terminal239/FrontEndMentor-Challenges/tree/master/advice-generator-app-main)
 - [Live Site URL](https://advice-genius.netlify.app/)
 
 ## My process
@@ -37,4 +37,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@TerminalEagle](https://www.frontendmentor.io/profile/TerminalEagle)
+- Frontend Mentor - [@Terminal239](https://www.frontendmentor.io/profile/Terminal239)

@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/TerminalEagle/FrontEndMentor-Challenges/tree/master/Results-Summary-main)
+- [Solution URL](https://github.com/Terminal239/FrontEndMentor-Challenges/tree/master/Results-Summary-main)
 - [Live Site URL](https://64eb5476c2bf4d6781bc662f--hilarious-taffy-a992d3.netlify.app/)
 
 ## My process
@@ -38,4 +38,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@TerminalEagle](https://www.frontendmentor.io/profile/TerminalEagle)
+- Frontend Mentor - [@Terminal239](https://www.frontendmentor.io/profile/Terminal239)

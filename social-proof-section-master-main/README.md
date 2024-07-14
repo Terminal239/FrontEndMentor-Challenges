@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/TerminalEagle/social-proof-section-master)
+- [Solution URL](https://github.com/Terminal239/social-proof-section-master)
 - [Live Site URL](https://social-proof-site-page.netlify.app/)
 
 ## My process
@@ -39,7 +39,7 @@ Users should be able to:
 ## Author
 
 - [Website](https://dev-forge.netlify.app)
-- Frontend Mentor - [@TerminalEagle](https://www.frontendmentor.io/profile/TerminalEagle)
+- Frontend Mentor - [@Terminal239](https://www.frontendmentor.io/profile/Terminal239)
 
 ## Screenshot
 

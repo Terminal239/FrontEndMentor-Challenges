@@ -4,13 +4,15 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
+- [Frontend Mentor - News homepage solution](#frontend-mentor---news-homepage-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+  - [Author](#author)
 
 ## Overview
 
@@ -28,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/TerminalEagle/FrontEndMentor-Challenges/tree/master/news-homepage-main)
+- [Solution URL](https://github.com/Terminal239/FrontEndMentor-Challenges/tree/master/news-homepage-main)
 - [Live Site URL](https://earnest-gnome-69fe8e.netlify.app/)
 
 ## My process
@@ -43,4 +45,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@TerminalEagle](https://www.frontendmentor.io/profile/TerminalEagle)
+- Frontend Mentor - [@Terminal239](https://www.frontendmentor.io/profile/Terminal239)

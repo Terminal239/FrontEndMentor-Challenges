@@ -4,14 +4,16 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-- [Author](#author)
+- [Frontend Mentor - Intro section with dropdown navigation solution](#frontend-mentor---intro-section-with-dropdown-navigation-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+  - [Author](#author)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -32,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/TerminalEagle/FrontEndMentor-Challenges/tree/master/intro-section-with-dropdown-navigation-main)
+- [Solution URL](https://github.com/Terminal239/FrontEndMentor-Challenges/tree/master/intro-section-with-dropdown-navigation-main)
 - [Live Site URL](https://intro-with-dropdown-list.netlify.app/)
 
 ## My process
@@ -51,4 +53,4 @@ I implemented a lot of concepts that I obtained about SASS such as using mixins 
 
 ## Author
 
-- Frontend Mentor - [@TerminalEagle](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Terminal239](https://www.frontendmentor.io/profile/yourusername)

@@ -4,13 +4,14 @@ This is a solution to the [Bookmark landing page challenge on Frontend Mentor](h
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
-- [Screenshot](#screenshot)
+- [Frontend Mentor - Bookmark landing page solution](#frontend-mentor---bookmark-landing-page-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+  - [Author](#author)
 
 ## Overview
 
@@ -27,7 +28,7 @@ Users should be able to:
 ### Links
 
 - [Live Site URL](https://bookmark-landing-page-website.netlify.app/)
-- [Live Site URL](https://github.com/TerminalEagle/bookmark-landing-page-master)
+- [Live Site URL](https://github.com/Terminal239/bookmark-landing-page-master)
 
 ## My process
 
@@ -44,11 +45,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@TerminalEagle](https://www.frontendmentor.io/profile/TerminalEagle)
-
-## Screenshots
-
-<div style="display:grid; grid-template-columns: 1fr 1fr; gap: 32px">
-  <img src="./screenshots/desktop-version.png">
-  <img  src="./screenshots/mobile-version.png">
-</div>
+- Frontend Mentor - [@Terminal239](https://www.frontendmentor.io/profile/Terminal239)

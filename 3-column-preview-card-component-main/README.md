@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/TerminalEagle/FrontEndMentor-Challenges/tree/master/3-column-preview-card-component-main)
+- [Solution URL](https://github.com/Terminal239/FrontEndMentor-Challenges/tree/master/3-column-preview-card-component-main)
 - [Live Site URL](https://whimsical-madeleine-57ade2.netlify.app/)
 
 ## My process
@@ -50,4 +50,4 @@ The paragraph grows to eat the available space even when the content is short fo
 
 ## Author
 
-- Frontend Mentor - [@TerminalEagle](https://www.frontendmentor.io/profile/TerminalEagle)
+- Frontend Mentor - [@Terminal239](https://www.frontendmentor.io/profile/Terminal239)
