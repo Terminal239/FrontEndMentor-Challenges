@@ -10,18 +10,6 @@ This repository contains a collection of challenges completed on the website [Fr
 
 The challenges in this repository cover a wide range of topics related to web development, including responsive design, layout, accessibility, and interactivity. The projects are categorized based on the technology stack used for their implementation:
 
-### Plain HTML, CSS, and JS
-
-Projects implemented using only HTML, CSS, and vanilla JavaScript are located in the `html-css-js` directory. These challenges focus on building fundamental frontend skills, such as structuring web pages, styling with CSS, and adding basic interactivity using JavaScript.
-
-### React Projects
-
-Challenges that involve building projects with the React library are stored in the `react-projects` directory. React is a popular JavaScript library for building user interfaces, and these challenges allow you to practice creating dynamic and interactive components using React's component-based architecture.
-
-### Vite Projects
-
-The `vite-projects` directory contains challenges built using the Vite build tool. Vite is known for its fast development server and efficient build process. Completing challenges using Vite will give you experience in optimizing frontend projects for performance.
-
 ## How to Use This Repository
 
 1. Clone the repository to your local machine using the following command:
