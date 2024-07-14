@@ -15,20 +15,14 @@ The challenges in this repository cover a wide range of topics related to web de
 1. Clone the repository to your local machine using the following command:
 
    ```
-   git clone https://github.com/your-username/frontend-mentor-challenges.git
+   git clone https://github.com/Terminal239/frontend-mentor-challenges.git
    ```
 
 2. Navigate to the specific challenge directory you're interested in. For example, to explore a plain HTML, CSS, and JS challenge:
 
    ```
-   cd frontend-mentor-challenges/html-css-js/challenge-name
+   cd frontend-mentor-challenges/challenge-name
    ```
-
-   If you're working on a React or Vite challenge, navigate to the respective directory.
-
-3. Each challenge directory contains the necessary files to complete the project. You'll typically find HTML, CSS, and JavaScript files, along with any additional assets required for the challenge.
-
-4. Follow the challenge instructions provided by Frontend Mentor to complete the project. You can test your solution by opening the `index.html` file in your browser. For React and Vite projects, follow the additional setup instructions provided by the challenge.
 
 ## Contributing
 
