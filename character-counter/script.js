@@ -9,6 +9,7 @@ const controlAppConfig = document.querySelectorAll("input.config-item");
 const controlAppInputs = document.querySelectorAll("input.config-item-input");
 const errors = document.querySelectorAll("p.error");
 
+
 class TextProcessing {
   #config = {
     excludeSpaces: false,
@@ -127,3 +128,4 @@ controlAppInputs.forEach((configInput) => {
     analyzeText.updateConfig(event.target.name, event.target.value);
   });
 });
+

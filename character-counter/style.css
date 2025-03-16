@@ -27,18 +27,15 @@ header {
 button {
   cursor: pointer;
 }
-
 button.toggle-theme {
   width: 36px;
   height: 36px;
   border: none;
   border-radius: 6px;
 }
-
 button.toggle-theme img {
   height: 18px;
 }
-
 button.toggle-theme:hover {
   background-color: #aaa;
 }
@@ -54,14 +51,12 @@ p.error {
 .text-input-container {
   margin-bottom: 48px;
 }
-
 .text-input-container h1 {
   text-align: center;
   font-size: 3.75rem;
   line-height: 1;
   margin-bottom: 48px;
 }
-
 .text-input-container textarea {
   width: 100%;
   height: 196px;
@@ -73,26 +68,21 @@ p.error {
   font-size: 16px;
   resize: none;
 }
-
 .text-input-container textarea.error {
   border-color: red;
 }
-
 .text-input-container textarea.error:focus {
   outline-color: red;
 }
-
 .text-input-container .control {
   height: 48px;
   gap: 16px;
 }
-
-.text-input-container .control-item {
-  gap: 8px;
-}
-
 .text-input-container .control .reading-time {
   margin-left: auto;
+}
+.text-input-container .control-item {
+  gap: 8px;
 }
 
 .statistics {
@@ -183,7 +173,5 @@ input[name=characterLimit] {
   max-width: 1200px;
   padding-inline: 24px;
 }
-
-
 
 /*# sourceMappingURL=style.css.map */
